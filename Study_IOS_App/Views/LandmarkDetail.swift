@@ -49,3 +49,4 @@ struct LandmarkDetail_Previews: PreviewProvider {
         LandmarkDetail()
     }
 }
+

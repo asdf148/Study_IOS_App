@@ -23,3 +23,4 @@ struct CircleImage_Previews: PreviewProvider {
         CircleImage()
     }
 }
+
