@@ -112,8 +112,8 @@
 			children = (
 				143D592827BA30060049B654 /* Study_IOS_AppApp.swift */,
 				143D596A27BA47240049B654 /* Views */,
-				143D596B27BA47500049B654 /* Model */,
 				143D596D27BA47820049B654 /* Resources */,
+				1496015027BB79BC0025BF44 /* Model */,
 				143D592C27BA30080049B654 /* Assets.xcassets */,
 				143D592E27BA30080049B654 /* Preview Content */,
 			);
@@ -158,21 +158,21 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		143D596B27BA47500049B654 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				143D596827BA44B10049B654 /* ModelData.swift */,
-				143D596627BA418A0049B654 /* Landmark.swift */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
 		143D596D27BA47820049B654 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				143D596427BA41570049B654 /* landmarkData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		1496015027BB79BC0025BF44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				143D596627BA418A0049B654 /* Landmark.swift */,
+				143D596827BA44B10049B654 /* ModelData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
