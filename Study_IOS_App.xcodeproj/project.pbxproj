@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1405CB0B27BC9B3100D6AFFB /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1405CB0A27BC9B3100D6AFFB /* HexagonParameters.swift */; };
+		1405CB0D27BC9D4F00D6AFFB /* BedgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1405CB0C27BC9D4F00D6AFFB /* BedgeBackground.swift */; };
 		143D592927BA30060049B654 /* Study_IOS_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143D592827BA30060049B654 /* Study_IOS_AppApp.swift */; };
 		143D592B27BA30060049B654 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143D592A27BA30060049B654 /* ContentView.swift */; };
 		143D592D27BA30080049B654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 143D592C27BA30080049B654 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		1405CB0A27BC9B3100D6AFFB /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HexagonParameters.swift; path = Study_IOS_App/Views/HexagonParameters.swift; sourceTree = SOURCE_ROOT; };
+		1405CB0C27BC9D4F00D6AFFB /* BedgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BedgeBackground.swift; path = Study_IOS_App/Views/BedgeBackground.swift; sourceTree = SOURCE_ROOT; };
 		143D592527BA30060049B654 /* Study_IOS_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Study_IOS_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		143D592827BA30060049B654 /* Study_IOS_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_IOS_AppApp.swift; sourceTree = "<group>"; };
 		143D592A27BA30060049B654 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -152,6 +154,8 @@
 		143D596A27BA47240049B654 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1405CB0A27BC9B3100D6AFFB /* HexagonParameters.swift */,
+				1405CB0C27BC9D4F00D6AFFB /* BedgeBackground.swift */,
 				1496015427BB84980025BF44 /* Helpers */,
 				1496015327BB84810025BF44 /* Landmarks */,
 				143D592A27BA30060049B654 /* ContentView.swift */,
@@ -190,7 +194,6 @@
 			isa = PBXGroup;
 			children = (
 				1496015127BB83310025BF44 /* FavoriteButton.swift */,
-				1405CB0A27BC9B3100D6AFFB /* HexagonParameters.swift */,
 				143D595C27BA37610049B654 /* CircleImage.swift */,
 				143D596227BA39E30049B654 /* MapView.swift */,
 			);
@@ -339,6 +342,7 @@
 				143D596727BA418A0049B654 /* Landmark.swift in Sources */,
 				144D364C27BB49DA000F322B /* LandmarkRow.swift in Sources */,
 				143D596927BA44B10049B654 /* ModelData.swift in Sources */,
+				1405CB0D27BC9D4F00D6AFFB /* BedgeBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
