@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1405CB0B27BC9B3100D6AFFB /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1405CB0A27BC9B3100D6AFFB /* HexagonParameters.swift */; };
-		1405CB0D27BC9D4F00D6AFFB /* BedgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1405CB0C27BC9D4F00D6AFFB /* BedgeBackground.swift */; };
+		1405CB0D27BC9D4F00D6AFFB /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1405CB0C27BC9D4F00D6AFFB /* BadgeBackground.swift */; };
 		1405CB0F27BCB63B00D6AFFB /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1405CB0E27BCB63B00D6AFFB /* BadgeSymbol.swift */; };
 		1405CB1127BCB7F500D6AFFB /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1405CB1027BCB7F500D6AFFB /* RotatedBadgeSymbol.swift */; };
+		1405CB1327BCB8DF00D6AFFB /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1405CB1227BCB8DF00D6AFFB /* Badge.swift */; };
 		143D592927BA30060049B654 /* Study_IOS_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143D592827BA30060049B654 /* Study_IOS_AppApp.swift */; };
 		143D592B27BA30060049B654 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143D592A27BA30060049B654 /* ContentView.swift */; };
 		143D592D27BA30080049B654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 143D592C27BA30080049B654 /* Assets.xcassets */; };
@@ -47,10 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1405CB0A27BC9B3100D6AFFB /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HexagonParameters.swift; path = Study_IOS_App/Views/HexagonParameters.swift; sourceTree = SOURCE_ROOT; };
-		1405CB0C27BC9D4F00D6AFFB /* BedgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BedgeBackground.swift; path = Study_IOS_App/Views/BedgeBackground.swift; sourceTree = SOURCE_ROOT; };
+		1405CB0A27BC9B3100D6AFFB /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HexagonParameters.swift; path = Study_IOS_App/Views/Badges/HexagonParameters.swift; sourceTree = SOURCE_ROOT; };
+		1405CB0C27BC9D4F00D6AFFB /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BadgeBackground.swift; path = Study_IOS_App/Views/Badges/BadgeBackground.swift; sourceTree = SOURCE_ROOT; };
 		1405CB0E27BCB63B00D6AFFB /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		1405CB1027BCB7F500D6AFFB /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		1405CB1227BCB8DF00D6AFFB /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		143D592527BA30060049B654 /* Study_IOS_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Study_IOS_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		143D592827BA30060049B654 /* Study_IOS_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_IOS_AppApp.swift; sourceTree = "<group>"; };
 		143D592A27BA30060049B654 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1405CB1527BCBB0200D6AFFB /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				1405CB0E27BCB63B00D6AFFB /* BadgeSymbol.swift */,
+				1405CB1027BCB7F500D6AFFB /* RotatedBadgeSymbol.swift */,
+				1405CB1227BCB8DF00D6AFFB /* Badge.swift */,
+				1405CB0A27BC9B3100D6AFFB /* HexagonParameters.swift */,
+				1405CB0C27BC9D4F00D6AFFB /* BadgeBackground.swift */,
+			);
+			path = Badges;
+			sourceTree = "<group>";
+		};
 		143D591C27BA30060049B654 = {
 			isa = PBXGroup;
 			children = (
@@ -125,8 +139,6 @@
 				143D596D27BA47820049B654 /* Resources */,
 				1496015027BB79BC0025BF44 /* Model */,
 				143D592C27BA30080049B654 /* Assets.xcassets */,
-				1405CB0E27BCB63B00D6AFFB /* BadgeSymbol.swift */,
-				1405CB1027BCB7F500D6AFFB /* RotatedBadgeSymbol.swift */,
 				143D592E27BA30080049B654 /* Preview Content */,
 			);
 			path = Study_IOS_App;
@@ -160,8 +172,7 @@
 		143D596A27BA47240049B654 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				1405CB0A27BC9B3100D6AFFB /* HexagonParameters.swift */,
-				1405CB0C27BC9D4F00D6AFFB /* BedgeBackground.swift */,
+				1405CB1527BCBB0200D6AFFB /* Badges */,
 				1496015427BB84980025BF44 /* Helpers */,
 				1496015327BB84810025BF44 /* Landmarks */,
 				143D592A27BA30060049B654 /* ContentView.swift */,
@@ -342,6 +353,7 @@
 				143D592927BA30060049B654 /* Study_IOS_AppApp.swift in Sources */,
 				1496015227BB83310025BF44 /* FavoriteButton.swift in Sources */,
 				1405CB0B27BC9B3100D6AFFB /* HexagonParameters.swift in Sources */,
+				1405CB1327BCB8DF00D6AFFB /* Badge.swift in Sources */,
 				1405CB1127BCB7F500D6AFFB /* RotatedBadgeSymbol.swift in Sources */,
 				1405CB0F27BCB63B00D6AFFB /* BadgeSymbol.swift in Sources */,
 				144D365027BB5043000F322B /* LandmarkDetail.swift in Sources */,
@@ -350,7 +362,7 @@
 				143D596727BA418A0049B654 /* Landmark.swift in Sources */,
 				144D364C27BB49DA000F322B /* LandmarkRow.swift in Sources */,
 				143D596927BA44B10049B654 /* ModelData.swift in Sources */,
-				1405CB0D27BC9D4F00D6AFFB /* BedgeBackground.swift in Sources */,
+				1405CB0D27BC9D4F00D6AFFB /* BadgeBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
