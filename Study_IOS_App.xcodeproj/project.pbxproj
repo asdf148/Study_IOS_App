@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1405CB0B27BC9B3100D6AFFB /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1405CB0A27BC9B3100D6AFFB /* HexagonParameters.swift */; };
 		143D592927BA30060049B654 /* Study_IOS_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143D592827BA30060049B654 /* Study_IOS_AppApp.swift */; };
 		143D592B27BA30060049B654 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143D592A27BA30060049B654 /* ContentView.swift */; };
 		143D592D27BA30080049B654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 143D592C27BA30080049B654 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1405CB0A27BC9B3100D6AFFB /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HexagonParameters.swift; path = Study_IOS_App/Views/HexagonParameters.swift; sourceTree = SOURCE_ROOT; };
 		143D592527BA30060049B654 /* Study_IOS_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Study_IOS_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		143D592827BA30060049B654 /* Study_IOS_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_IOS_AppApp.swift; sourceTree = "<group>"; };
 		143D592A27BA30060049B654 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				1496015127BB83310025BF44 /* FavoriteButton.swift */,
+				1405CB0A27BC9B3100D6AFFB /* HexagonParameters.swift */,
 				143D595C27BA37610049B654 /* CircleImage.swift */,
 				143D596227BA39E30049B654 /* MapView.swift */,
 			);
@@ -329,6 +332,7 @@
 				143D596327BA39E30049B654 /* MapView.swift in Sources */,
 				143D592927BA30060049B654 /* Study_IOS_AppApp.swift in Sources */,
 				1496015227BB83310025BF44 /* FavoriteButton.swift in Sources */,
+				1405CB0B27BC9B3100D6AFFB /* HexagonParameters.swift in Sources */,
 				144D365027BB5043000F322B /* LandmarkDetail.swift in Sources */,
 				144D365427BB73EA000F322B /* LandmarkList.swift in Sources */,
 				143D595D27BA37610049B654 /* CircleImage.swift in Sources */,
