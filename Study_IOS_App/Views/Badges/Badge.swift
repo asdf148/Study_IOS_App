@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct Bedge: View {
-    var bedgeSymbols: some View {
+struct Badge: View {
+    var badgeSymbols: some View {
         ForEach(0..<8) { index in
             RotatedBadgeSymbol(
                 angle: .degrees(Double(index) / Double(8)) * 360.0
@@ -19,10 +19,10 @@ struct Bedge: View {
     
     var body: some View {
         ZStack {
-            BedgeBackground()
+            BadgeBackground()
             
             GeometryReader { geometry in
-                bedgeSymbols
+                badgeSymbols
                     .scaleEffect(1.0 / 4.0, anchor: .top)
                                         .position(x: geometry.size.width / 2.0, y: (3.0 / 4.0) * geometry.size.height)
             }
@@ -31,8 +31,8 @@ struct Bedge: View {
     }
 }
 
-struct Bedge_Previews: PreviewProvider {
+struct Badge_Previews: PreviewProvider {
     static var previews: some View {
-        Bedge()
+        Badge()
     }
 }

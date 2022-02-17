@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct BedgeBackground: View {
+struct BadgeBackground: View {
     var body: some View {
         GeometryReader { geometry in
             Path { path in
@@ -55,8 +55,8 @@ struct BedgeBackground: View {
     static let gradientEnd = Color(red: 239.0 / 255, green: 172.0 / 255, blue: 120.0 / 255)
 }
 
-struct BedgeBackground_Previews: PreviewProvider {
+struct BadgeBackground_Previews: PreviewProvider {
     static var previews: some View {
-        BedgeBackground()
+        BadgeBackground()
     }
 }
