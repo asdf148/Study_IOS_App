@@ -45,6 +45,7 @@
 		EB08724F27BE10AF005BA911 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB08724E27BE10AF005BA911 /* PageViewController.swift */; };
 		EB08725727BE122A005BA911 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB08725627BE122A005BA911 /* FeatureCard.swift */; };
 		EB08725927BE1460005BA911 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB08725827BE1460005BA911 /* PageView.swift */; };
+		EB08725B27BE1F59005BA911 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB08725A27BE1F59005BA911 /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +107,7 @@
 		EB08724E27BE10AF005BA911 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		EB08725627BE122A005BA911 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		EB08725827BE1460005BA911 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		EB08725A27BE1F59005BA911 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,6 +298,7 @@
 				EB08725627BE122A005BA911 /* FeatureCard.swift */,
 				EB08724E27BE10AF005BA911 /* PageViewController.swift */,
 				EB08725827BE1460005BA911 /* PageView.swift */,
+				EB08725A27BE1F59005BA911 /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -442,6 +445,7 @@
 				143D592927BA30060049B654 /* Study_IOS_AppApp.swift in Sources */,
 				1405CB2127BCC00900D6AFFB /* GraphCapsule.swift in Sources */,
 				1496015227BB83310025BF44 /* FavoriteButton.swift in Sources */,
+				EB08725B27BE1F59005BA911 /* PageControl.swift in Sources */,
 				1405CB0B27BC9B3100D6AFFB /* HexagonParameters.swift in Sources */,
 				1405CB2B27BCCFBE00D6AFFB /* CategoryItem.swift in Sources */,
 				1405CB2327BCC00900D6AFFB /* HikeDetail.swift in Sources */,
